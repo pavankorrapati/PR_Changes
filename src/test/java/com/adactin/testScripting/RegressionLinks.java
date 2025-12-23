@@ -6,6 +6,8 @@ public class RegressionLinks extends MethodImplementations{
 public static void main(String[] args) {
 	RegressionLinks driver= new RegressionLinks();
 	driver.launchBrowser();
+	driver.launchBrowser();
+	driver.loginWithValidCred();
 	driver.loginWithValidCred();
 	driver.verifyLinksFunctioanlity();
 	
